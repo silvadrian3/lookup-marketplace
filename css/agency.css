@@ -1,0 +1,339 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: #09defafd;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #09defafd;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #09defafd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color: #00c6e0fd;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #09defafd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #00c6e0fd;
+    color: #fff;
+    background-color: #09defafd;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #00c6e0fd;
+    background-color: #09defafd;
+}
+
+.btn-primary .badge {
+    color: #09defafd;
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #00c6e0fd;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #09defafd;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #00c6e0fd;
+    color: #fff;
+    background-color: #09defafd;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #00c6e0fd;
+    background-color: #09defafd;
+}
+
+.btn-xl .badge {
+    color: #09defafd;
+    background-color: #fff;
+}
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-brand {
+    /**font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
+    /**text-shadow: 1px 2px 1px #777;*/
+    color:#FFFFFF !important;
+    margin-top:5px;
+    margin-bottom:5px
+}
+
+.navbar-nav {
+    margin-top:5px
+}
+
+
+.page-load {
+    text-align: center;
+    font-size: 24px;
+    /**
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    */
+    padding:10%;
+    color: #09defafd;
+}
+
+section {
+    padding: 100px 0 0 0;
+}
+
+.bottom-hr{
+    display: none;
+}
+
+
+.list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0px;
+    border-radius: 0px;
+}
+
+.div-products {
+    height: 330px;
+    margin: 5px 0;
+}
+
+.content {
+    padding: 20px 20px; 
+    border: solid 1px transparent; 
+}
+
+.content:hover {
+    border: solid 1px #eee; 
+    cursor: pointer; 
+}
+
+
+.list-products .portfolio-caption {
+    padding-top:10px;
+    text-align: center;
+}
+
+.list-products h5 {
+    margin: 0;
+    text-transform: none;
+    color: #333;
+}
+
+.list-products h5:hover {
+    cursor: pointer;
+    color:#000;
+}
+
+.list-products p {
+    font-size:12px;
+    margin: 0;
+    font-style: italic;
+    display:block; 
+    color:#09defafd
+}
+
+.list-products small {
+    color:#09defafd;
+    font-size:12px
+}
+
+.list-products img {
+    max-height:220px;
+}
+
+.active-star {
+    color: #ffdc5c !important;
+}
+
+.in-active-star {
+    color: #a2a2a0 !important;
+}
+
+.active_category, .active_range { 
+    background-color: #f5f5f5; 
+}
+.clear_filter:hover { 
+    color:#ff0000; cursor: pointer; 
+}
+
+footer {
+    border-top: solid 1px #eee;
+    padding: 25px 0;
+    background-color: #f7f7f7;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+    
+}
+
+.cp_footer {
+    text-align: right;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #09defafd;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}

@@ -1,0 +1,4 @@
+{
+   "result":true,
+   "data":[{"classification_id":"1","classification":"Electronic Devices"},{"classification_id":"2","classification":"Electronic Accessories"},{"classification_id":"3","classification":"TV & Home Appliances"},{"classification_id":"4","classification":"Health & Beauty"},{"classification_id":"5","classification":"Babies & Toys"},{"classification_id":"6","classification":"Groceries & Pets"},{"classification_id":"7","classification":"Home & Lifestyle"},{"classification_id":"8","classification":"Women's Fashion"},{"classification_id":"9","classification":"Men's Fashion"},{"classification_id":"10","classification":"Fashion Accessories"},{"classification_id":"11","classification":"Sports & Travel"},{"classification_id":"12","classification":"Automotive & Motorcycles"}]
+}
